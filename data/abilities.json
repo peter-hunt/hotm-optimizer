@@ -1,0 +1,80 @@
+{
+  "mining_speed_boost": {
+    "type": "stat_boost",
+    "1": {
+      "duration": 20,
+      "cooldown": 120,
+      "bonus": { "mining_speed_percentage": 1.5 }
+    },
+    "2": {
+      "duration": 20,
+      "cooldown": 120,
+      "bonus": { "mining_speed_percentage": 2.25 }
+    },
+    "3": {
+      "duration": 20,
+      "cooldown": 120,
+      "bonus": { "mining_speed_percentage": 3.0 }
+    }
+  },
+  "maniac_miner": {
+    "type": "stat_boost",
+    "1": {
+      "duration": 15,
+      "cooldown": 60,
+      "bonus": { "mining_fortune_cap": 500 }
+    },
+    "2": {
+      "duration": 15,
+      "cooldown": 60,
+      "bonus": { "mining_fortune_cap": 750 }
+    },
+    "3": {
+      "duration": 15,
+      "cooldown": 60,
+      "bonus": { "mining_fortune_cap": 1000 }
+    }
+  },
+  "gemstone_infusion": {
+    "type": "stat_boost",
+    "1": {
+      "duration": 30,
+      "cooldown": 120,
+      "bonus": { "gemstone_stat_multiplier": 1.5 }
+    },
+    "2": {
+      "duration": 30,
+      "cooldown": 120,
+      "bonus": { "gemstone_stat_multiplier": 1.75 }
+    },
+    "3": {
+      "duration": 30,
+      "cooldown": 120,
+      "bonus": { "gemstone_stat_multiplier": 2.0 }
+    }
+  },
+  "sheer_force": {
+    "type": "stat_boost",
+    "1": { "duration": 30, "cooldown": 120, "bonus": { "mining_spread": 100 } },
+    "2": { "duration": 30, "cooldown": 120, "bonus": { "mining_spread": 150 } },
+    "3": { "duration": 30, "cooldown": 120, "bonus": { "mining_spread": 200 } }
+  },
+  "pickobulus": {
+    "type": "aoe",
+    "1": {
+      "duration": 0,
+      "cooldown": 60,
+      "effect": { "blocks_broken": 9, "radius": 2 }
+    },
+    "2": {
+      "duration": 0,
+      "cooldown": 50,
+      "effect": { "blocks_broken": 18, "radius": 2 }
+    },
+    "3": {
+      "duration": 0,
+      "cooldown": 40,
+      "effect": { "blocks_broken": 27, "radius": 3 }
+    }
+  }
+}

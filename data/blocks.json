@@ -1,0 +1,106 @@
+[
+  {
+    "name": "ore",
+    "drops": ["ore", 5],
+    "mining_xp": 20,
+    "breaking_power": 3,
+    "block_strength": 600,
+    "type": "ore"
+  },
+  {
+    "name": "gray_mithril",
+    "drops": ["mithril", 1],
+    "mining_xp": 45,
+    "breaking_power": 4,
+    "block_strength": 500,
+    "type": "metal"
+  },
+  {
+    "name": "green_mithril",
+    "drops": ["mithril", 2],
+    "mining_xp": 45,
+    "breaking_power": 4,
+    "block_strength": 800,
+    "type": "metal"
+  },
+  {
+    "name": "blue_mithril",
+    "drops": ["mithril", 5],
+    "mining_xp": 45,
+    "breaking_power": 4,
+    "block_strength": 1500,
+    "type": "metal"
+  },
+  {
+    "name": "titanium",
+    "drops": ["titanium", 1],
+    "mining_xp": 100,
+    "breaking_power": 5,
+    "block_strength": 2000,
+    "type": "metal"
+  },
+  {
+    "name": "umber",
+    "drops": ["umber", 2],
+    "mining_xp": 75,
+    "breaking_power": 9,
+    "block_strength": 5600,
+    "type": "metal"
+  },
+  {
+    "name": "tungsten",
+    "drops": ["tungsten", 2],
+    "mining_xp": 75,
+    "breaking_power": 9,
+    "block_strength": 5600,
+    "type": "metal"
+  },
+  {
+    "name": "glacite",
+    "drops": ["glacite", 1],
+    "mining_xp": 80,
+    "breaking_power": 9,
+    "block_strength": 6000,
+    "type": "metal"
+  },
+  {
+    "name": "ruby",
+    "drops": ["ruby", 4],
+    "mining_xp": 70,
+    "breaking_power": 6,
+    "block_strength": 2300,
+    "type": "gemstone"
+  },
+  {
+    "name": "amber",
+    "drops": ["amber", 4],
+    "mining_xp": 70,
+    "breaking_power": 7,
+    "block_strength": 3000,
+    "type": "gemstone"
+  },
+  {
+    "name": "topaz",
+    "drops": ["topaz", 4],
+    "mining_xp": 70,
+    "breaking_power": 8,
+    "block_strength": 3800,
+    "type": "gemstone"
+  },
+  {
+    "name": "jasper",
+    "drops": ["jasper", 4],
+    "mining_xp": 70,
+    "breaking_power": 9,
+    "block_strength": 4800,
+    "type": "gemstone"
+  },
+  {
+    "name": "aquamarine",
+    "drops": ["aquamarine", 4],
+    "mining_xp": 70,
+    "breaking_power": 9,
+    "block_strength": 5200,
+    "type": "mineshaft_gemstone"
+  }
+]

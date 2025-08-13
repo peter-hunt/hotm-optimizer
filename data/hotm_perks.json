@@ -1,0 +1,263 @@
+{
+  "mining_speed": {
+    "type": "stat",
+    "stat": "mining_speed",
+    "init": 0,
+    "delta": 20,
+    "max_level": 50
+  },
+  "mining_speed_boost": {
+    "type": "ability",
+    "name": "mining_speed_boost",
+    "related_stats": ["mining_speed"]
+  },
+  "precision_mining": {
+    "type": "misc",
+    "name": "precision_mining",
+    "related_stats": ["mining_speed"]
+  },
+  "mining_fortune": {
+    "type": "stat",
+    "stat": "mining_fortune",
+    "init": 0,
+    "delta": 2,
+    "max_level": 50
+  },
+  "titanium_insanium": {
+    "type": "stat",
+    "stat": "titanium_chance",
+    "init": 2,
+    "delta": 0.1,
+    "max_level": 50
+  },
+  "pickobulus": {
+    "type": "ability",
+    "name": "pickobulus",
+    "related_stats": ["mining_speed"]
+  },
+  "luck_of_the_cave": {
+    "type": "stat",
+    "stat": "rare_ocurrences",
+    "init": 5,
+    "delta": 1,
+    "related_stats": ["powder_gain"]
+  },
+  "efficient_miner": {
+    "type": "stat",
+    "stat": "mining_spread",
+    "init": 0,
+    "delta": 3,
+    "max_level": 100
+  },
+  "quick_forge": { "type": "misc", "name": "quick_forge" },
+  "sky_mall": [
+    { "type": "stat", "stat": "mining_speed", "value": 22.727272727272727 },
+    { "type": "stat", "stat": "mining_fortune", "value": 11.363636363636363 },
+    { "type": "stat", "stat": "powder_gain", "value": 3.4090909090909087 },
+    {
+      "type": "stat",
+      "stat": "ability_cooldown_reduction",
+      "value": 0.045454545454545456
+    },
+    { "type": "stat", "stat": "goblin_chance", "value": 0.4090909090909091 },
+    { "type": "stat", "stat": "titanium_drop", "value": 0.18181818181818182 }
+  ],
+  "old-school": {
+    "type": "stat",
+    "stat": "ore_fortune",
+    "init": 0,
+    "delta": 5,
+    "max_level": 20
+  },
+  "professional": {
+    "type": "stat",
+    "stat": "gemstone_speed",
+    "init": 50,
+    "delta": 5,
+    "max_level": 140
+  },
+  "mole": {
+    "type": "stat",
+    "stat": "hardstone_spread",
+    "init": 48.24120603015076,
+    "delta": 1.7587939698492463,
+    "max_level": 200
+  },
+  "gem_lover": {
+    "type": "stat",
+    "stat": "gemstone_fortune",
+    "init": 20,
+    "delta": 4,
+    "max_level": 20
+  },
+  "seasoned_mineman": {
+    "type": "stat",
+    "stat": "mining_wisdom",
+    "init": 5,
+    "delta": 0.1,
+    "max_level": 100
+  },
+  "front_loaded": [
+    { "type": "stat", "stat": "gemstone_powder", "value": 2 },
+    { "type": "stat", "stat": "gemstone_speed", "value": 250 },
+    { "type": "stat", "stat": "gemstone_speed", "value": 150 }
+  ],
+  "daily_grind": {
+    "type": "misc",
+    "name": "daily_grind",
+    "related_stats": ["mithril_powder", "gemstone_powder", "glacite_powder"]
+  },
+  "core_of_the_mountain": { "type": "misc", "name": "core_of_the_mountain" },
+  "daily_powder": {
+    "type": "misc",
+    "name": "daily_powder",
+    "related_stats": ["mithril_powder", "gemstone_powder", "glacite_powder"]
+  },
+  "anomalous_desire": {
+    "type": "ability",
+    "name": "anomalous_desire",
+    "related_stats": ["powder_gain"]
+  },
+  "blockhead": {
+    "type": "stat",
+    "stat": "block_fortune",
+    "init": 0,
+    "delta": 5,
+    "max_level": 20
+  },
+  "subterranean_fisher": { "type": "misc", "name": "subterranean_fisher" },
+  "keep_it_cool": {
+    "type": "stat",
+    "stat": "heat_resistance",
+    "init": 0,
+    "delta": 0.4,
+    "max_level": 50
+  },
+  "lonesome_miner": { "type": "misc", "name": "lonesome_miner" },
+  "great_explorer": {
+    "type": "stat",
+    "stat": "treasure_chest_chance",
+    "init": 16,
+    "delta": 4,
+    "max_level": 20
+  },
+  "maniac_miner": {
+    "type": "ability",
+    "name": "maniac_miner",
+    "related_stats": ["mining_fortune"]
+  },
+  "speedy_mineman": {
+    "type": "stat",
+    "stat": "mining_speed",
+    "init": 0,
+    "delta": 40,
+    "max_level": 50
+  },
+  "powder_buff": {
+    "type": "stat",
+    "stat": "powder_gain",
+    "init": 0,
+    "delta": 1,
+    "max_level": 50
+  },
+  "fortunate_mineman": {
+    "type": "stat",
+    "stat": "mining_speed",
+    "init": 0,
+    "delta": 3,
+    "max_level": 50
+  },
+  "miners_blessing": { "type": "misc", "name": "miners_blessing" },
+  "no_stone_unturned": {
+    "type": "misc",
+    "name": "no_stone_unturned",
+    "related_stats": ["glacite_powder_gain"]
+  },
+  "strong_arm": {
+    "type": "stat",
+    "stat": "dwarven_metal_speed",
+    "init": 0,
+    "delta": 5,
+    "max_level": 100
+  },
+  "steady_hand": {
+    "type": "stat",
+    "stat": "mineshaft_gemstone_spread",
+    "init": 0,
+    "delta": 5,
+    "max_level": 100
+  },
+  "warm_heart": {
+    "type": "stat",
+    "stat": "cold_resistance",
+    "init": 0,
+    "delta": 0.4,
+    "max_level": 50
+  },
+  "surveyor": { "type": "misc", "name": "surveyor" },
+  "mineshaft_mayhem": [
+    { "type": "stat", "stat": "mining_speed", "value": 40 },
+    { "type": "stat", "stat": "mining_fortune", "value": 20 },
+    { "type": "stat", "stat": "cold_resistance", "value": 20 },
+    {
+      "type": "stat",
+      "stat": "mineshaft_ability_cooldown_reduction",
+      "value": 5
+    },
+    { "type": "stat", "stat": "glacite_powder_gain", "value": 1 }
+  ],
+  "metal_head": {
+    "type": "stat",
+    "stat": "dwarven_metal_fortune",
+    "init": 0,
+    "delta": 5,
+    "max_level": 20
+  },
+  "rags_to_riches": {
+    "type": "stat",
+    "stat": "mineshaft_fortune",
+    "init": 0,
+    "delta": 4,
+    "max_level": 50
+  },
+  "eager_adventurer": {
+    "type": "stat",
+    "stat": "mineshaft_speed",
+    "init": 0,
+    "delta": 4,
+    "max_level": 100
+  },
+  "gemstone_infusion": {
+    "type": "ability",
+    "name": "gemstone_infusion",
+    "related_stats": ["mining_speed", "mining_fortune", "pristine"]
+  },
+  "crystalline": { "type": "misc", "name": "crystalline" },
+  "gifts_from_the_departed": {
+    "type": "misc",
+    "name": "gifts_from_the_departed",
+    "related_stats": ["glacite_powder_gain", "hotm_xp_gain"]
+  },
+  "mining_master": {
+    "type": "stat",
+    "stat": "pristine",
+    "init": 0,
+    "delta": 0.1,
+    "max_level": 10
+  },
+  "dead_mans_chest": {
+    "type": "misc",
+    "name": "dead_mans_chest",
+    "related_stats": ["glacite_powder_gain", "hotm_xp_gain"]
+  },
+  "vanguard_seeker": {
+    "type": "misc",
+    "name": "vanguard_seeker",
+    "related_stats": ["glacite_powder_gain", "hotm_xp_gain"]
+  },
+  "sheer_force": {
+    "type": "ability",
+    "name": "sheer_force",
+    "related_stats": ["mining_spread"]
+  }
+}

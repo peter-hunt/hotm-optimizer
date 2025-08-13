@@ -1,0 +1,130 @@
+{
+  "mithril": [
+    "ability_cooldown_reduction",
+    "dwarven_metal_fortune",
+    "dwarven_metal_speed",
+    "mining_fortune",
+    "mining_speed",
+    "mining_spread"
+  ],
+  "titanium": [
+    "ability_cooldown_reduction",
+    "dwarven_metal_fortune",
+    "dwarven_metal_speed",
+    "mining_fortune",
+    "mining_speed",
+    "mining_spread",
+    "titanium_chance",
+    "titanium_drop"
+  ],
+  "ruby": [
+    "ability_cooldown_reduction",
+    "gemstone_fortune",
+    "gemstone_powder",
+    "gemstone_speed",
+    "mining_fortune",
+    "mining_speed",
+    "pristine",
+    "heat_resistance"
+  ],
+  "amber": [
+    "ability_cooldown_reduction",
+    "gemstone_fortune",
+    "gemstone_powder",
+    "gemstone_speed",
+    "mining_fortune",
+    "mining_speed",
+    "pristine"
+  ],
+  "topaz": [
+    "ability_cooldown_reduction",
+    "gemstone_fortune",
+    "gemstone_powder",
+    "gemstone_speed",
+    "mining_fortune",
+    "mining_speed",
+    "pristine",
+    "heat_resistance"
+  ],
+  "jasper": [
+    "ability_cooldown_reduction",
+    "gemstone_fortune",
+    "gemstone_powder",
+    "gemstone_speed",
+    "mining_fortune",
+    "mining_speed",
+    "pristine"
+  ],
+  "aquamarine": [
+    "ability_cooldown_reduction",
+    "gemstone_fortune",
+    "gemstone_powder",
+    "gemstone_speed",
+    "mineshaft_gemstone_spread",
+    "mineshaft_ability_cooldown_reduction",
+    "mining_fortune",
+    "mining_speed",
+    "pristine",
+    "cold_resistance"
+  ],
+  "glacite": [
+    "ability_cooldown_reduction",
+    "dwarven_metal_fortune",
+    "dwarven_metal_speed",
+    "mineshaft_ability_cooldown_reduction",
+    "mining_fortune",
+    "mining_speed",
+    "mining_spread",
+    "mineshaft_fortune",
+    "mineshaft_speed",
+    "cold_resistance"
+  ],
+  "ore": [
+    "ability_cooldown_reduction",
+    "ore_fortune",
+    "mining_fortune",
+    "mining_speed",
+    "mining_spread"
+  ],
+  "block": [
+    "ability_cooldown_reduction",
+    "mining_spread",
+    "block_fortune"
+  ],
+  "hard_stone": [
+    "ability_cooldown_reduction",
+    "mining_speed",
+    "mining_spread",
+    "block_fortune",
+    "hardstone_spread",
+    "treasure_chest_chance",
+    "powder_gain"
+  ],
+  "mithril_powder": [
+    "ability_cooldown_reduction",
+    "dwarven_metal_speed",
+    "mining_speed",
+    "mining_spread",
+    "powder_gain",
+    "mithril_powder"
+  ],
+  "gemstone_powder": [
+    "ability_cooldown_reduction",
+    "mining_speed",
+    "mining_spread",
+    "powder_gain",
+    "gemstone_powder"
+  ],
+  "glacite_powder": [
+    "ability_cooldown_reduction",
+    "dwarven_metal_speed",
+    "mineshaft_ability_cooldown_reduction",
+    "mining_speed",
+    "mining_spread",
+    "mineshaft_speed",
+    "cold_resistance",
+    "powder_gain",
+    "glacite_powder",
+    "glacite_powder_gain"
+  ]
+}
