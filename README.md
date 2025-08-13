@@ -1,9 +1,9 @@
 # Hypixel Skyblock HOTM Optimizer
 
-![](https://img.shields.io/github/repo-size/peter-hunt/hotm_optimizer)
-![](https://img.shields.io/github/license/peter-hunt/hotm_optimizer)
-![](https://img.shields.io/github/issues/peter-hunt/hotm_optimizer)
-![](https://img.shields.io/github/stars/peter-hunt/hotm_optimizer)
+![](https://img.shields.io/github/repo-size/peter-hunt/hotm-optimizer)
+![](https://img.shields.io/github/license/peter-hunt/hotm-optimizer)
+![](https://img.shields.io/github/issues/peter-hunt/hotm-optimizer)
+![](https://img.shields.io/github/stars/peter-hunt/hotm-optimizer)
 
 Optimizer for HotM (Heart of the Mountain) powder distribution made as of Hypixel Skyblock 0.23.3. A python version of at least 3.9 is expected to work version 3.13.5 is recommended for best stability since that's the version used for development.
 
