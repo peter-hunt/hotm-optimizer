@@ -1,7 +1,7 @@
 # Hypixel Skyblock HOTM Optimizer
 
 ![](https://img.shields.io/github/repo-size/peter-hunt/hotm-optimizer)
-![](https://img.shields.io/github/license/peter-hunt/hotm-optimizer)
+![](https://img.shields.io/badge/license-CC_BY_4.0-green)
 ![](https://img.shields.io/github/issues/peter-hunt/hotm-optimizer)
 ![](https://img.shields.io/github/stars/peter-hunt/hotm-optimizer)
 
@@ -19,7 +19,11 @@ If you need to install a modern version of Python or check/find the correct vers
 
 If you're not sure how to edit the values in the config to, view the Python Support section below.
 
+You can check your stats breakdown in the Skyblock Menu -> Your Skyblock Profile -> Gathering Stats on the right. In there, the components of the mining stats that you have is broken down, which you can check easier whether if there is something like the mining speed from Gone with the Wind event that you should not add to the config.
+
 To start, edit the `config.py` data to your in-game stats. Follow the instructions and review the given example `config.py` for the integer/percentage formats and what should be added. Go into the stats break down in the menu after HOTM is reset to avoid event stats messing up the stats. And make sure to include additional related stats like mineral specific or regional stats. **Copy from the `config_init.py` for a clean copy to get started with to avoid incorrect default values from the `config.py`.** Remember to update the stats whenever you get an upgrade in the items or have a decent amount of extra powder available. Remember that the total powder is the powder that you have plus the total you will get back from respecing the HOTM tree (just so you can see how much an increase it is from your current stats should you use the optimized result and decide if you wish to switch otherwise), or just the plain numbers after respecing.
+
+A reminder that **the code doesn't automatically generate the best HOTM tree based on your HOTM/COTM levels yet and will require manually putting the used nodes**. You can do so by **entering the code name for the HOTM nodes under the `"given_tree"` value**, and you can **check for the code names for other nodes in the `data/hotm_tree.json` if not shown in the example**. This is due to the ability calculation not implemented in the main optimizer code yet, and that it gets more complicated with the code when you have to try all possible trees when you don't have enough tokens for all relevant perks. Don't worry, this will be implemented at some point in the future though, although the option of using a given tree will be supported just in case you have so much mana that you love Maniac Miner over anything else.
 
 **Be careful that the `config_init.py` content will not work without your editing to put in your own stats as the mining speed is set to zero.**
 
@@ -75,9 +79,17 @@ In addition, as there are discrete improvements in the hypixel mechanics such as
 - To support optimizing a tree over a task that the pet would level up during;
 - To extract even the formulas and mechanics into editable data files, where this could then support rapid mechanics change that Skyblock probably won't have or even optimizing for other tasks like HOTF or other games completely with the change of the mechanics data files.
 
+### Potential Future Projects
+
+- Combat/Fishing/Mining/Foraging profit increment versus cost optimizer.
+
 ## Support for Future Skyblock Changes
 
 This project is organized so that the mechanics is implemented in the code and the data are all editable in the files under the data folder, so it could be easily updated if Hypixel chooses to change some powder exponents or the stats gain from a node. The stats from the items and so on are already manually entered from the config, so they can also be modified easily.
+
+## The History of PeterHunt's Previous HOTM Optimizer and the Potentials for This.
+
+It became too long and I had to move it here: [History](./HISTORY.md)
 
 ## License
 
@@ -85,19 +97,7 @@ This project is under the Creative Commons Attribution 4.0 International License
 
 [CC BY 4.0](./LICENSE.txt)
 
-## The History of PeterHunt's Previous HOTM Optimizer and the Potentials for This.
-
-A-lot-of-math Alert and Nerdy Alert.
-
-Not that much math actually.
-
-I originally started this project when there was only Mithril Powder in the game and Efficient Miner still a discrete increment node. The optimization problem led me to reinvent Multvariable Calculus as the hill climbing algorithm was a multidimensional space with each axis being the level of a perk and the function result as the efficiency. The titanium mining efficiency was a smooth surface with the Efficient Miner over-approximated as a smooth curve and decreased to be tuned later. A float result is obtained from the hill-climbing algorithm, but the integer one can be found by trying a couple surrounding the float result to ensure the best result. However, in that I discovered that both faster and more accurate to even try all the possible levels of the nodes, which somewhat discouraged further development of the optimizer.
-
-I took a break from Skyblock during which the Glacial Tunnels and Mineshafts were released, which was due to my previous ironman profile being unfortunately ratted by a coop scam by a stranger. In my new profile, however, getting to the point of being able to gemstone powder mine and the potential optimize for all kinds of different tasks again, including the Glacial Area which I wasn't familiar with, I restarted the optimizer code project as to eventually benefit other Skyblock players to have a slightly easier mining time with an optimized HOTM tree before maxed powder (although maxed powder would be considered the most optimized HOTM tree for sure). The last project was based on a simple mining speed/fortune/spread initial input and the powder for the calculation, but I realized that there are so many unique and specific stats like the pet, tool, armor bonus and so on, that I might as well organize my code to support all of them in an ultimate HOTM optimizer. That is where this project came from. With a lot more experience in Python and how AI code didn't write good enough code for HOTM optimizer, I made this for me and for all of you guys. Speaking of experience in Python, I had a previous project to recreate Skyblock in Python command line, which was not maintained since long ago because it was mainly for when Skyblock servers were down with the DDOS attack and their implementing of the Cloudfare proxies I'm pretty sure.
-
 The license to allow you guys to share and use the project but having to credit me in case you decide to build up from this and choose to credit me would be a great motivation for me to create more open-sourced tools and resources for Skyblock and potentially even more in the future. I have looked for HOTM optimizers but never found one that did what I expected, and there are other tools like bazaar/AH flipping trackers which just didn't really fit my need (and also just me not being a big bazaar/AH flipper myself), but I would create some more personalized trackers like those if I would help more Skyblock players with it.
-
-Now to speak of the potentials. In my high school Multivariable Calculus class, the Lagrange Multiplier method for optimization was the perfect generalization and formulation for my first optimizer using the multivariable hill-climbing algorithm but with virtuall O(1) time efficiency, so significantly better than my implementation although the same idea. This leads me to thinking if there are direct approaches to the HOTM optimizer even with 3 different powder types, thus 3 different and independent constraints on the same function value like that of Lagrange Multiplier's. Granted that the formula will be much more complicated than just the old HOTM 5 layers all with mithril powder, and that it might also be impossible with an analytic integrals and so on for such a function, there might still be a formula to find the best HOTM powder distribution much faster and obtaining the global maximum.
 
 ## My Patreon
 

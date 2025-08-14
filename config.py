@@ -205,7 +205,7 @@ CONFIG = {
     # * Uses the tree if given, data should be an iterable with the node names.
     "given_tree": (
         "mining_speed", "mining_fortune", "titanium_insanium", "pickobulus", "efficient_miner",
-        "sky_mall", "old-school", "professional", "mole", "core_of_the_mountain",
+        "sky_mall", "old_school", "professional", "mole", "core_of_the_mountain",
         "blockhead", "subterranean_fisher", "keep_it_cool", "lonesome_miner",
         "great_explorer", "speedy_mineman", "powder_buff",
         "fortunate_mineman", "steady_hand", "strong_arm",
@@ -214,7 +214,7 @@ CONFIG = {
     # ? You can use from those
     # H7C7 Ores
     # "mining_speed", "mining_fortune", "efficient_miner",
-    # "sky_mall", "old-school", "professional", "mole", "seasoned_mineman",
+    # "sky_mall", "old_school", "professional", "mole", "seasoned_mineman",
     # "daily_grind", "core_of_the_mountain", "daily_powder",
     # "blockhead", "subterranean_fisher", "keep_it_cool",
     # "lonesome_miner", "great_explorer", "maniac_miner",
@@ -227,7 +227,7 @@ CONFIG = {
     # "fortunate_mineman",,
     # H7C7 Mithril Powder while Titanium
     # "mining_speed", "mining_fortune", "titanium_insanium", "efficient_miner",
-    # "sky_mall", "old-school", "professional", "mole", "core_of_the_mountain",
+    # "sky_mall", "old_school", "professional", "mole", "core_of_the_mountain",
     # "blockhead", "subterranean_fisher", "keep_it_cool", "lonesome_miner",
     # "great_explorer", "maniac_miner", "speedy_mineman", "powder_buff",
     # "fortunate_mineman",

@@ -62,7 +62,7 @@
     { "type": "stat", "stat": "goblin_chance", "value": 0.4090909090909091 },
     { "type": "stat", "stat": "titanium_drop", "value": 0.18181818181818182 }
   ],
-  "old-school": {
+  "old_school": {
     "type": "stat",
     "stat": "ore_fortune",
     "init": 0,
